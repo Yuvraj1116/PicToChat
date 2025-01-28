@@ -55,7 +55,7 @@ function App() {
   const dispatch = useDispatch();
   useEffect(() => {
     if (user) {
-      const socketio = io('http://localhost:8080', {
+      const socketio = io('https://pictochat-qu2v.onrender.com', {
         query: {
           userId: user?._id
         },
