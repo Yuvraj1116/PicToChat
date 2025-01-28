@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="100" fill="#6c63ff"/>
+
+  <!-- Speech Bubble -->
+  <path d="M60 60 h80 a10 10 0 0 1 10 10 v50 a10 10 0 0 1 -10 10 h-50 l-20 20 v-20 h-10 a10 10 0 0 1 -10 -10 v-50 a10 10 0 0 1 10 -10 z" fill="#fff"/>
+
+  <!-- Camera Icon -->
+  <circle cx="100" cy="85" r="20" fill="#6c63ff"/>
+  <circle cx="100" cy="85" r="10" fill="#fff"/>
+  <rect x="88" y="68" width="24" height="8" rx="4" fill="#6c63ff"/>
+</svg>
