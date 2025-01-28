@@ -17,7 +17,7 @@ const ChatPage = () => {
 
     const sendMessageHandler = async (reciverId)=>{
         try {
-             const  res = await axios.post(`http://localhost:8080/api/v1/message/send/${reciverId}`,{textMessage},{
+             const  res = await axios.post(`https://pictochat-qu2v.onrender.com/api/v1/message/send/${reciverId}`,{textMessage},{
                 headers:{
                     'Content-Type':'application/json',
                 },
